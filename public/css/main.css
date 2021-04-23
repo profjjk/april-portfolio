@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif; }
+
+.border {
+  border: 1px solid black; }
+
+.navbar {
+  position: absolute;
+  top: 1%;
+  width: 100%;
+  padding: 1%;
+  display: flex;
+  justify-content: center; }
+  .navbar .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 30%; }
+    .navbar .nav-menu .nav-item {
+      margin: 0;
+      list-style: none;
+      text-align: center;
+      color: #808080; }
+      .navbar .nav-menu .nav-item.active {
+        font-weight: 600;
+        color: #000; }
+      .navbar .nav-menu .nav-item:hover {
+        cursor: pointer; }

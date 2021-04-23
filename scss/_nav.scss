@@ -1,0 +1,26 @@
+.navbar {
+  position: absolute;
+  top: 1%;
+  width: 100%;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 30%;
+    .nav-item {
+      margin: 0;
+      list-style: none;
+      text-align: center;
+      color: #808080;
+      &.active {
+        font-weight: 600;
+        color: #000;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

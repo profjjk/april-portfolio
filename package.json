@@ -1,0 +1,23 @@
+{
+  "name": "april-portfolio",
+  "version": "1.0.0",
+  "description": "April Yang's portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o public/css --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/profjjk/april-portfolio.git"
+  },
+  "keywords": [],
+  "author": "Jordan Kelly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/profjjk/april-portfolio/issues"
+  },
+  "homepage": "https://github.com/profjjk/april-portfolio#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
