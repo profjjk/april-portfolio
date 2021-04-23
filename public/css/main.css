@@ -46,16 +46,17 @@
     grid-template-rows: repeat(2, 1fr);
     height: 10%;
     align-items: center; }
-    .scrollbar .scroll-menu .scroll-item {
-      list-style: none;
-      height: 15px;
-      width: 15px;
-      border: 1px solid #000;
-      border-radius: 50%; }
-      .scrollbar .scroll-menu .scroll-item.active {
-        background: #000; }
-      .scrollbar .scroll-menu .scroll-item:hover {
-        cursor: pointer; }
+    .scrollbar .scroll-menu li {
+      list-style: none; }
+      .scrollbar .scroll-menu li .scroll-item {
+        height: 15px;
+        width: 15px;
+        border: 1px solid #000;
+        border-radius: 50%; }
+        .scrollbar .scroll-menu li .scroll-item.active {
+          background: #000; }
+        .scrollbar .scroll-menu li .scroll-item:hover {
+          cursor: pointer; }
 
 #greeting-section {
   margin: 4% 4% 0 0;

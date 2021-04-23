@@ -14,17 +14,20 @@
     grid-template-rows: repeat(2, 1fr);
     height: 10%;
     align-items: center;
-    .scroll-item {
+    li {
       list-style: none;
-      height: 15px;
-      width: 15px;
-      border: 1px solid #000;
-      border-radius: 50%;
-      &.active {
-        background: #000;
-      }
-      &:hover {
-        cursor: pointer;
+      .scroll-item {
+      
+        height: 15px;
+        width: 15px;
+        border: 1px solid #000;
+        border-radius: 50%;
+        &.active {
+          background: #000;
+        }
+        &:hover {
+          cursor: pointer;
+        }
       }
     }
   }
