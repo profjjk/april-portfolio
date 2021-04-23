@@ -3,3 +3,22 @@
 @import 'scroll';
 @import 'mobile';
 
+#greeting-section {
+  margin: 4% 4% 0 0;
+  height: 96vh;
+  display: flex;
+  align-items: center;
+  .greeting {
+    padding: 5% 10%;
+    .emoji {
+      font-size: 30px;
+      padding: 2% 0;
+    }
+    h1 {
+      font-weight: 600;
+      line-height: 1.8;
+      font-size: 2.5em;
+      padding-bottom: 10%;
+    }
+  }
+}

@@ -22,9 +22,52 @@
       margin: 0;
       list-style: none;
       text-align: center;
-      color: #808080; }
+      color: #808080;
+      font-size: 1.2em; }
       .navbar .nav-menu .nav-item.active {
         font-weight: 600;
         color: #000; }
       .navbar .nav-menu .nav-item:hover {
         cursor: pointer; }
+
+.scrollbar {
+  position: fixed;
+  right: 2%;
+  height: 100%;
+  width: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .scrollbar .scroll-menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    height: 10%;
+    align-items: center; }
+    .scrollbar .scroll-menu .scroll-item {
+      list-style: none;
+      height: 15px;
+      width: 15px;
+      border: 1px solid #000;
+      border-radius: 50%; }
+      .scrollbar .scroll-menu .scroll-item.active {
+        background: #000; }
+      .scrollbar .scroll-menu .scroll-item:hover {
+        cursor: pointer; }
+
+#greeting-section {
+  margin: 4% 4% 0 0;
+  height: 96vh;
+  display: flex;
+  align-items: center; }
+  #greeting-section .greeting {
+    padding: 5% 10%; }
+    #greeting-section .greeting .emoji {
+      font-size: 30px;
+      padding: 2% 0; }
+    #greeting-section .greeting h1 {
+      font-weight: 600;
+      line-height: 1.8;
+      font-size: 2.5em;
+      padding-bottom: 10%; }
