@@ -5,11 +5,19 @@
   font-family: 'Inter', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .border {
   border: 1px solid black;
 }
 
 $apple: url('img/apple-logo.png');
 $hexis: url('img/hexis-logo.png');
+
+@mixin easeOut {
+  transition: all .5s ease-out;
+}
 
 

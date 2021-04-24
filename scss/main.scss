@@ -42,7 +42,9 @@
       color: #808080;
     }
     img {
-      margin: 10% auto;
+      justify-self: center;
+      align-self: center;
+      max-width: 100%;
     }
   }
   .hexis-app {
@@ -56,7 +58,9 @@
       color: #808080;
     }
     img {
-      margin: 10% auto;
+      justify-self: center;
+      align-self: center;
+      max-width: 100%;
     }
   }
 }
