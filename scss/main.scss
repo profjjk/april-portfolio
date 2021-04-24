@@ -4,9 +4,10 @@
 @import 'mobile';
 
 #greeting-section {
-  margin: 4% 4% 0 0;
-  height: 96vh;
-  display: flex;
+  padding: 4% 4% 0 0;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
   align-items: center;
   .greeting {
     padding: 5% 10%;
@@ -45,6 +46,7 @@
       justify-self: center;
       align-self: center;
       max-width: 100%;
+      max-height: 250px;
     }
   }
   .hexis-app {
@@ -61,6 +63,7 @@
       justify-self: center;
       align-self: center;
       max-width: 100%;
+      max-height: 264px;
     }
   }
 }

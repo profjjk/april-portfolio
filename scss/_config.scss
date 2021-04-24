@@ -5,8 +5,23 @@
   font-family: 'Inter', sans-serif;
 }
 
-html {
+.scroll-container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
+  section {
+    height: 100vh;
+    scroll-snap-align: center;
+  }
+}
+
+@mixin easeOut {
+  transition: all 2s ease-out;
+} 
+
+.hide {
+  display: none;
 }
 
 .border {
@@ -15,9 +30,5 @@ html {
 
 $apple: url('img/apple-logo.png');
 $hexis: url('img/hexis-logo.png');
-
-@mixin easeOut {
-  transition: all .5s ease-out;
-}
 
 

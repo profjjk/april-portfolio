@@ -9,8 +9,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap" rel="stylesheet">
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/036157d86c.js" crossorigin="anonymous"></script>
-  <!-- JQuery CDN -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
   <!-- Stylesheet -->
   <link href="css/main.css" rel="stylesheet"/>
 
@@ -18,29 +16,29 @@
 </head>
 <body>
   <nav>
-    <div class="navbar" id="top">
+    <div class="navbar" id=top>
       <ul class="nav-menu">
         <li class="nav-item active"><a>Work</a></li>
-        <li class="nav-item"><a>About</a></li>
-      </ul>
-    </div>
-    <div class="scrollbar">
-      <ul class="scroll-menu">
-        <li><a href="#top"><div class="scroll-item active"></div></a></li>
-        <li><a href="#work-section"><div class="scroll-item" ></div></a></li>
+        <li class="nav-item"><a href="about.html">About</a></li>
       </ul>
     </div>
   </nav>
+  <div class="scrollbar">
+    <ul class="scroll-menu">
+      <li><a href="#greeting-section"><div class="scroll-item active"></div></a></li>
+      <li><a href="#work-section"><div class="scroll-item" ></div></a></li>
+    </ul>
+  </div>
   
-  <main>
-    <div id="greeting-section">
+  <main class="scroll-container">
+    <section id="greeting-section">
       <div class="greeting">
         <div class="emoji">&#128075</div>
-        <h1>Hi! I'm a User Researcher who is passionate about udnerstanding users and uncovering insights. Previously worked at Apple full-time for 3 years doing user research work. Currently, I'm working on a Master's degree in Human Computer Interaction.</h1>
+        <h1>Hi! I'm a User Researcher who is passionate about understanding users and uncovering insights. Previously worked at Apple full-time for 3 years doing user research work. Currently, I'm working on a Master's degree in Human Computer Interaction.</h1>
       </div>
-    </div>
+    </section>
 
-    <div id="work-section">
+    <section id="work-section">
       <div class="apple-work">
         <h2>APPLE WORK</h2>
         <img src="img/apple-logo.png" alt="Apple Logo" />
@@ -49,7 +47,12 @@
         <h2>HEXIS FITNESS APP</h2>
         <img src="img/hexis-logo.png" alt="Hexis Logo" />
       </div>
-    </div>
+    </section>
   </main>
+
+  <!-- JQuery CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+  <!-- Scripts -->
+  <script src="js/home.js"></script>
 </body>
 </html>
