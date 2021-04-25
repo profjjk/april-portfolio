@@ -139,3 +139,23 @@
     }
   }
 }
+
+#contact {
+  margin: 5% 4% 0 0;
+  padding: 5%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 20px;
+  align-items: center;
+  div h1 {
+    text-align: center;
+    margin: 3% 0;
+    font-size: 2em;
+  }
+  div p {
+    text-align: center;
+    font-size: 1.2em;
+  }
+}
