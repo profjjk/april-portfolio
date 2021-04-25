@@ -80,3 +80,62 @@
     max-height: 250px;
   }
 }
+
+#profile {
+  margin: 5% 4% 0 0;
+  padding: 5%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 33% 66%;
+  column-gap: 20px;
+  align-items: center;
+  img {
+    border-radius: 20px;
+    object-fit: contain;
+    max-width: 100%;
+  }
+  .about-text {
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 20px;
+    line-height: 1.7;
+    padding: 30px;
+  }
+}
+
+#research {
+  padding: 5%;
+  height: 100vh;
+  width: 100%;
+  #research-methods {
+    margin: 2% 1% 0 0;
+    padding: 2%;
+    background: #dbecff;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+  }
+  #design-methods {
+    margin: 0 1% 0 0;
+    padding: 2%;
+    background: #ffefd7;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+  }
+  h2 {
+    color: #333;
+  }
+  ul {
+    margin-top: 4%;
+    align-self: center;
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20%;
+    li {
+      margin-left: 20%;
+      color: #4d4d4d;
+    }
+  }
+}
