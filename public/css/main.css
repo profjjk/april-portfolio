@@ -90,6 +90,9 @@
       line-height: 1.8;
       font-size: 2.5em;
       padding-bottom: 10%; }
+  #greeting-section a {
+    justify-self: center;
+    color: #4d4d4d; }
 
 #work-section {
   margin-right: 4%;
@@ -141,6 +144,7 @@
   height: 100vh;
   display: grid;
   grid-template-columns: 33% 66%;
+  grid-template-rows: auto;
   column-gap: 20px;
   align-items: center; }
   #profile img {
@@ -153,11 +157,17 @@
     row-gap: 20px;
     line-height: 1.7;
     padding: 30px; }
+  #profile a {
+    align-self: end;
+    justify-self: center;
+    color: #4d4d4d;
+    grid-column: 1/3; }
 
 #research {
   padding: 5%;
   height: 100vh;
-  width: 100%; }
+  width: 100%;
+  display: grid; }
   #research #research-methods {
     margin: 2% 1% 0 0;
     padding: 2%;
@@ -184,6 +194,11 @@
     #research ul li {
       margin-left: 20%;
       color: #4d4d4d; }
+  #research a {
+    align-self: end;
+    justify-self: center;
+    color: #4d4d4d;
+    margin-right: 4%; }
 
 #contact {
   margin: 5% 4% 0 0;
