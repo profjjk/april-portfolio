@@ -158,4 +158,26 @@
     text-align: center;
     font-size: 1.2em;
   }
+  div {
+    display: grid;
+    justify-content: center;
+  }
+  a {
+    color: #333;
+  }
+  .icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    a {
+      margin: 0 30px;
+    }
+  }
+  h2 {
+    text-align: center;
+    margin-top: 10%;
+    a:hover {
+      cursor: pointer;
+    }
+  }
 }

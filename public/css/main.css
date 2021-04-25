@@ -201,3 +201,19 @@
   #contact div p {
     text-align: center;
     font-size: 1.2em; }
+  #contact div {
+    display: grid;
+    justify-content: center; }
+  #contact a {
+    color: #333; }
+  #contact .icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center; }
+    #contact .icons a {
+      margin: 0 30px; }
+  #contact h2 {
+    text-align: center;
+    margin-top: 10%; }
+    #contact h2 a:hover {
+      cursor: pointer; }
