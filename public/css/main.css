@@ -82,7 +82,7 @@
   #greeting-section .greeting {
     padding: 5% 10%; }
     #greeting-section .greeting .emoji {
-      font-size: 30px;
+      font-size: 40px;
       padding: 2% 0; }
     #greeting-section .greeting h1 {
       font-weight: 600;
@@ -102,27 +102,34 @@
     height: 55%;
     background: #dbecff;
     padding: 20px;
-    display: grid; }
-    #work-section .apple-work h2 {
-      text-align: center;
-      font-weight: 200;
-      color: #808080; }
-    #work-section .apple-work img {
-      justify-self: center;
-      align-self: center;
-      max-width: 100%;
-      max-height: 250px; }
+    display: grid;
+    transition: all .5s ease-out; }
+    #work-section .apple-work:hover {
+      cursor: pointer;
+      box-shadow: 0px 0px 10px #808080,  -0px -0px 10px #808080;
+      transition: all .5s ease-out; }
   #work-section .hexis-app {
     height: 55%;
     background: #ffefd7;
     padding: 20px;
-    display: grid; }
-    #work-section .hexis-app h2 {
-      text-align: center;
-      font-weight: 200;
-      color: #808080; }
-    #work-section .hexis-app img {
-      justify-self: center;
-      align-self: center;
-      max-width: 100%;
-      max-height: 264px; }
+    display: grid;
+    transition: all .5s ease-out; }
+    #work-section .hexis-app:hover {
+      cursor: pointer;
+      box-shadow: 0px 0px 10px #808080,  -0px -0px 10px #808080;
+      transition: all .5s ease-out; }
+  #work-section h2 {
+    text-align: center;
+    font-weight: 200;
+    color: #808080;
+    align-self: end; }
+  #work-section p {
+    text-align: center;
+    color: #808080;
+    font-weight: 200; }
+  #work-section a {
+    justify-self: center;
+    align-self: center; }
+  #work-section img {
+    max-width: 100%;
+    max-height: 250px; }
