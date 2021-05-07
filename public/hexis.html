@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/036157d86c.js" crossorigin="anonymous"></script>
+  <!-- Stylesheet -->
+  <!--link href="css/hexis.css" rel="stylesheet"/-->
+  <link href="css/style.css" rel="stylesheet"/>
+
+  <title>AY | User Researcher</title>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="home-link">&#8592 BACK TO HOME</a>
+    <h1>Hexis the Fitness App</h1>
+  </header>
+  
+  <main>
+    <section id="summary">
+      <div>
+        <h2>Summary</h2>
+        <p>
+          We wanted to understand the problem space around fitness and design for a solution to make the fitness lifestyle easy to adopt and maintain.
+        </p>
+      </div>
+      <div>
+        <h2>My Role</h2>
+        <p>Lead Researcher</p>
+        <p>Designer</p>
+      </div>
+    </section>
+    <h2 class="navigation-header">Process</h2>
+    <nav class="navigation">
+      <div class="navbar">
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="#discover">Discover</a><span>&#8594</span></li>
+          <li class="nav-item"><a href="#research">Research</a><span>&#8594</span></li>
+          <li class="nav-item"><a href="#ideate">Ideate</a><span>&#8594</span></li>
+          <li class="nav-item"><a href="#test">Test</a><span>&#8594</span></li>
+          <li class="nav-item"><a href="#redefine">Redefine</a><span>&#8594</span></li>
+          <li class="nav-item"><a href="#future">Future Work</a><span>&#8594</span></li>
+          <li class="nav-item"><a href="#reflect">Reflect</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="discover">
+      <div>
+        <h2>Discover</h2>
+        <h3>Problem Framing</h3>
+        <p>The current experience fitness apps provide is passive, users take most of the reponsibilities of planning, executing, and motivating themselves.</p>
+        <p>To better understand the problem, we created a Lean UX Canvas.</p>
+        <img src="img/lean-ux-canvas.png" alt="Lean UX Canvas" />
+        <p><strong>How might we improve the fitness experience so that users are more successful in keeping a fitness lifestyle?</strong></p>
+      </div>
+      <div class="colorBG" id="personas">
+        <h3>Personas</h3>
+        <p>We developed practical personas to explore what we think we know and to start the discussion of what we don’t know. We also used practical personas to focus on representative users and to prioritizing the user’s goals over a feature.</p>
+        <img src="img/persona-1.png" alt="Persona 1" />
+        <img src="img/persona-2.png" alt="Persona 2" />
+        <img src="img/persona-3.png" alt="Persona 3" />
+        <div id="risks">
+          <div class="headers">
+            <h4>Risks</h4>
+            <h4>To Validate</h4>
+          </div>
+          <div class="risk-row">
+            <p>Assuming reminder is effective in motivating exercise.</p>
+            &#8594
+            <p>Research what motivates people to fulfill their plans.</p>
+          </div>
+          <div class="risk-row">
+            <p>Assuming planning brings greater value than burden to the average users.</p>
+            &#8594
+            <p>Research the current methods the average users employ for their exercise routine.</p>
+          </div>
+          <div class="risk-row">
+            <p>Assuming it will be easy for users to adopt new flows.</p>
+            &#8594
+            <p>Research current exercise flow of the average users.</p>
+          </div>
+          <div class="risk-row">
+            <p>Assuming tranisitioning to exercising with an app is easy.</p>
+            &#8594
+            <p>Research how different personas adopt new technology.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="research">
+      <div>
+        <h2>User Research</h2>
+        <h3>Problem</h3>
+        <p>We were at the discovery stage of our product development. We needed learn more to validate the risks associated with our practical personas. This research is going help us find out if we are right about what we already know and discover what we don’t know.</p>
+        <h3>Research Goals</h3>
+        <ol>
+          <li>Understand the targeted users’ recent experience on their fitness journey.</li>
+          <li>Understand how targeted users approach the topic of fitness, the context, the struggles, and the delight.</li>
+          <li>Validate the risks associated with personas.</li>
+        </ol>
+        <h3>Research Protocol</h3>
+        <p>We developed a research protocal to help us stay focused and aligned on the goals of the resesarch.</p>
+        <h3>Semi-Structured User Interview</h3>
+        <p>We spent two weeks and met with 12 participants on Zoom. Each session was 30 minutes with one participation, one proctor, one notetaker, and two observers. We recorded each session after gaining consent from the participants, we also consolidated our notes at the end of each day.</p>
+        <img src="img/synthesize.png" alt="Synthesis" />
+      </div>
+      <div class="colorBG">
+        <h3>Synthesizing</h3>
+        <p>We used Affinity Mapping method to synthesize data and find themes.</p>
+        <img src="img/affinity-map.png" alt="Affinity Map" />
+      </div>
+      <div>
+        <h3>User Quotes</h3>
+        <div id="quotes">
+          <img src="img/user-quote-1.png" alt="User Quote 1" />
+          <img src="img/user-quote-2.png" alt="User Quote 2" />
+          <img src="img/user-quote-3.png" alt="User Quote 3" />
+        </div>
+        <p>In general, users have a difficult time keeping a fitness routine in their busy lives and finding workouts that fit their needs. They need an easy way to plan, personalize, and prioritize fitness. We believe we are able to help all three of them.</p>
+        <h3>Key Insights</h3>
+        <ul>
+          <li><span class="color">Personalization</span> and <span class="color">flexibility</span> are desired when engaging with fitness products.</li>
+          <li>People seek <span class="color">safe</span> and effective exercises that provide guidance and make them <span class="color">feel good</span>.</li>
+          <li>The ability to <span class="color">plan</span> and <span class="color">prepare</span> ahead of time holds people accountable for exercise and makes establishing a routine easier.</li>
+          <li>People seek direction and motivation in <span class="color">progress tracking</span> and <span class="color">rewards</span>. </li>
+          <li><span class="color">Social</span> environment plays a big role in fitness and it comes in many forms, including workout buddies, group fitness, trainer feedback, and etc.</li>
+          <li>People seek <span class="color">quick</span> and <span class="color">simple</span> exercise experience.</li>
+        </ul>
+        <h3>Constraints</h3>
+        <div id="constraints">
+          <div>
+            <p><strong>We must</strong></p>
+            <ul>
+              <li>provide personalization and customization</li>
+              <li>provide the ability to plan and prepare</li>
+              <li>provide progress/metric tracking and dynamic rewards </li>
+              <li>provide visual guidance for exercise techniques</li>
+              <li>provide a community for social aspects</li>
+            </ul>
+          </div>
+          <div>
+            <p><strong>We should</strong></p>
+            <ul>
+              <li>provide proactive feedback</li>
+              <li>provide categorized content for quick selection</li>
+              <li>provide live group fitness option</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ideate">
+      <div class="colorBG">
+        <h2>Ideate</h2>
+        <h3>Story Mapping</h3>
+        <p>To create a shared understanding in our team, we made a user story map to help understand user-focused solutions, identify holes, and break down discovery, design, and development into achievable pieces. We then can prioritize them and put them into action.</p>
+        <img src="img/story-map.png" alt="Story Map" />
+      </div>
+      <div>
+        <h3>Sketching</h3>
+        <p>With the story map, we were ready for our collaborative sketching sessions on Zoom.</p>
+        <p>We brought:</p>
+        <ul>
+          <li>problems</li>
+          <li>key constraints</li>
+          <li>sketching tools</li>
+          <li>our wild ideas</li>
+        </ul>
+        <img src="img/sketching.png" alt="Sketches" />
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
