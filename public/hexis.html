@@ -11,33 +11,33 @@
   <script src="https://kit.fontawesome.com/036157d86c.js" crossorigin="anonymous"></script>
   <!-- Stylesheet -->
   <!--link href="css/hexis.css" rel="stylesheet"/-->
-  <link href="css/style.css" rel="stylesheet"/>
+  <link href="css/main.css" rel="stylesheet"/>
 
   <title>AY | User Researcher</title>
 </head>
 <body>
-  <header>
+  <header class="whiteBG" id="hexis-header">
     <a href="index.html" class="home-link">&#8592 BACK TO HOME</a>
     <h1>Hexis the Fitness App</h1>
   </header>
   
-  <main>
+  <main id="hexis-main">
     <section id="summary">
-      <div>
+      <div class="section">
         <h2>Summary</h2>
         <p>
           We wanted to understand the problem space around fitness and design for a solution to make the fitness lifestyle easy to adopt and maintain.
         </p>
       </div>
-      <div>
+      <div class="section">
         <h2>My Role</h2>
         <p>Lead Researcher</p>
         <p>Designer</p>
       </div>
     </section>
     <h2 class="navigation-header">Process</h2>
-    <nav class="navigation">
-      <div class="navbar">
+    <nav id="hexis-stickynav">
+      <div class="navbar-hexis">
         <ul class="nav-menu">
           <li class="nav-item"><a href="#discover">Discover</a><span>&#8594</span></li>
           <li class="nav-item"><a href="#research">Research</a><span>&#8594</span></li>
@@ -50,52 +50,58 @@
       </div>
     </nav>
 
-    <section id="discover">
-      <div>
+    <section id="discover-section">
+      <a class="anchor" id="discover"></a>
+      <div class="section whiteBG">
         <h2>Discover</h2>
         <h3>Problem Framing</h3>
-        <p>The current experience fitness apps provide is passive, users take most of the reponsibilities of planning, executing, and motivating themselves.</p>
-        <p>To better understand the problem, we created a Lean UX Canvas.</p>
-        <img src="img/lean-ux-canvas.png" alt="Lean UX Canvas" />
-        <p><strong>How might we improve the fitness experience so that users are more successful in keeping a fitness lifestyle?</strong></p>
+        <p>The current experience fitness apps provide is passive, users take most of the reponsibilities of planning, executing, and motivating themselves.<br> To better understand the problem, we created a Lean UX Canvas.</p>
+        <div class="image">
+          <img src="img/lean-ux-canvas.png" alt="Lean UX Canvas" />
+        </div>
+        <p class="center"><strong>How might we improve the fitness experience so that users are more successful in keeping a fitness lifestyle?</strong></p>
       </div>
-      <div class="colorBG" id="personas">
+      <div class="whiteBG section" id="personas">
         <h3>Personas</h3>
         <p>We developed practical personas to explore what we think we know and to start the discussion of what we don’t know. We also used practical personas to focus on representative users and to prioritizing the user’s goals over a feature.</p>
-        <img src="img/persona-1.png" alt="Persona 1" />
-        <img src="img/persona-2.png" alt="Persona 2" />
-        <img src="img/persona-3.png" alt="Persona 3" />
+        <div class="persona-img">
+          <img src="img/persona-1.png" alt="Persona 1" />
+          <img src="img/persona-2.png" alt="Persona 2" />
+          <img src="img/persona-3.png" alt="Persona 3" />
+        </div>
         <div id="risks">
-          <div class="headers">
-            <h4>Risks</h4>
-            <h4>To Validate</h4>
+          <div class="risk-row">
+            <h4 class="center">Risks</h4>
+            <div></div>
+            <h4 class="center">To Validate</h4>
           </div>
           <div class="risk-row">
             <p>Assuming reminder is effective in motivating exercise.</p>
-            &#8594
+            <div>&#8594</div>
             <p>Research what motivates people to fulfill their plans.</p>
           </div>
           <div class="risk-row">
             <p>Assuming planning brings greater value than burden to the average users.</p>
-            &#8594
+            <div>&#8594</div>
             <p>Research the current methods the average users employ for their exercise routine.</p>
           </div>
           <div class="risk-row">
             <p>Assuming it will be easy for users to adopt new flows.</p>
-            &#8594
+            <div>&#8594</div>
             <p>Research current exercise flow of the average users.</p>
           </div>
           <div class="risk-row">
             <p>Assuming tranisitioning to exercising with an app is easy.</p>
-            &#8594
+            <div>&#8594</div>
             <p>Research how different personas adopt new technology.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="research">
-      <div>
+    <section id="research-section">
+      <a class="anchor" id="research"></a>
+      <div class="section">
         <h2>User Research</h2>
         <h3>Problem</h3>
         <p>We were at the discovery stage of our product development. We needed learn more to validate the risks associated with our practical personas. This research is going help us find out if we are right about what we already know and discover what we don’t know.</p>
@@ -109,14 +115,18 @@
         <p>We developed a research protocal to help us stay focused and aligned on the goals of the resesarch.</p>
         <h3>Semi-Structured User Interview</h3>
         <p>We spent two weeks and met with 12 participants on Zoom. Each session was 30 minutes with one participation, one proctor, one notetaker, and two observers. We recorded each session after gaining consent from the participants, we also consolidated our notes at the end of each day.</p>
-        <img src="img/synthesize.png" alt="Synthesis" />
+        <div class="image">
+          <img src="img/synthesize.png" alt="Synthesis" />
+        </div>
       </div>
-      <div class="colorBG">
+      <div class="section">
         <h3>Synthesizing</h3>
         <p>We used Affinity Mapping method to synthesize data and find themes.</p>
-        <img src="img/affinity-map.png" alt="Affinity Map" />
+        <div class=image>
+          <img src="img/affinity-map.png" alt="Affinity Map" id="affinity"/>
+        </div>
       </div>
-      <div>
+      <div class="section">
         <h3>User Quotes</h3>
         <div id="quotes">
           <img src="img/user-quote-1.png" alt="User Quote 1" />
@@ -126,15 +136,15 @@
         <p>In general, users have a difficult time keeping a fitness routine in their busy lives and finding workouts that fit their needs. They need an easy way to plan, personalize, and prioritize fitness. We believe we are able to help all three of them.</p>
         <h3>Key Insights</h3>
         <ul>
-          <li><span class="color">Personalization</span> and <span class="color">flexibility</span> are desired when engaging with fitness products.</li>
-          <li>People seek <span class="color">safe</span> and effective exercises that provide guidance and make them <span class="color">feel good</span>.</li>
-          <li>The ability to <span class="color">plan</span> and <span class="color">prepare</span> ahead of time holds people accountable for exercise and makes establishing a routine easier.</li>
-          <li>People seek direction and motivation in <span class="color">progress tracking</span> and <span class="color">rewards</span>. </li>
-          <li><span class="color">Social</span> environment plays a big role in fitness and it comes in many forms, including workout buddies, group fitness, trainer feedback, and etc.</li>
-          <li>People seek <span class="color">quick</span> and <span class="color">simple</span> exercise experience.</li>
+          <li><span class="orange">Personalization</span> and <span class="orange">flexibility</span> are desired when engaging with fitness products.</li>
+          <li>People seek <span class="orange">safe</span> and effective exercises that provide guidance and make them <span class="orange">feel good</span>.</li>
+          <li>The ability to <span class="orange">plan</span> and <span class="orange">prepare</span> ahead of time holds people accountable for exercise and makes establishing a routine easier.</li>
+          <li>People seek direction and motivation in <span class="orange">progress tracking</span> and <span class="orange">rewards</span>. </li>
+          <li><span class="orange">Social</span> environment plays a big role in fitness and it comes in many forms, including workout buddies, group fitness, trainer feedback, and etc.</li>
+          <li>People seek <span class="orange">quick</span> and <span class="orange">simple</span> exercise experience.</li>
         </ul>
         <h3>Constraints</h3>
-        <div id="constraints">
+        <div class="section" id="constraints">
           <div>
             <p><strong>We must</strong></p>
             <ul>
@@ -157,14 +167,15 @@
       </div>
     </section>
 
-    <section id="ideate">
-      <div class="colorBG">
+    <section>
+      <a class="anchor" id="ideate"></a>
+      <div class="whiteBG section">
         <h2>Ideate</h2>
         <h3>Story Mapping</h3>
         <p>To create a shared understanding in our team, we made a user story map to help understand user-focused solutions, identify holes, and break down discovery, design, and development into achievable pieces. We then can prioritize them and put them into action.</p>
         <img src="img/story-map.png" alt="Story Map" />
       </div>
-      <div>
+      <div class="section">
         <h3>Sketching</h3>
         <p>With the story map, we were ready for our collaborative sketching sessions on Zoom.</p>
         <p>We brought:</p>
@@ -175,10 +186,130 @@
           <li>our wild ideas</li>
         </ul>
         <img src="img/sketching.png" alt="Sketches" />
+        <p><strong>Convergence</strong></p>
+        <p>We applied constraints to our sketching, intergrated the best a number of ideas. We also voted on the unsure topics to narrow it down to 2-3 approaches.</p>
+      </div>
+      <div class="whiteBG section">
+        <h3>Design Reviews</h3>
+        <p>We wanted to deeply chanllenge our assumptions and turn sketpics to believes, so we held a design review session and invited our UX peers to the it.</p>
+        <div id="review-key">
+          <div class="greenBG">Works!</div>
+          <div class="blueBG">Question</div>
+          <div class="orangeBG">Needs work</div>
+        </div>
+        <img src="img/design-reviews.png" alt="Design Reviews" />
+        <p>We made changes based on the feedback received and created a user “happy path”.</p>
+        <img src="img/happy-path.png" alt="User Happy Path" />
+      </div>
+      <div class="section">
+        <h3>Rapid Protoyping</h3>
+        <p>To determine the “Right-Fi” prototype, we analyzed our goal for the prototype - we want to test what we think is the riskiest part of the happy path.</p>
+        <img src="img/rapid-proto.png" alt="Rapid Protoyping" />
+        <h3>User Flow</h3>
+        <p>To completely breakdown the user journey and flesh out each step, we created a user flow including task flow and wireflow.</p>
+        <div id="user-flow">
+          <img src="img/user-flow.png" alt="User Flow" />
+          <p>Even at this stage, we continued to discover problems which helped us to began working on solutions.</p>
+        </div>
+      </div>
+      <div class="whiteBG section">
+        <h3>Original Prototype</h3>
+        <div class="proto-row">
+          <div class="proto-row-photos">
+            <img src="img/proto_orig/calendar-1.png" alt="Calendar 1" />
+            <img src="img/proto_orig/calendar-2.png" alt="Calendar 2" />
+          </div>
+          <p>Weekly calendar view saves space on a mobile screen, it allows users to see their agenda and schedule workout in the most efficiant way.</p>
+        </div>
+        <div class="proto-row">
+          <div class="proto-row-photos">
+            <img src="img/proto_orig/scheduling-1.png" alt="Scheduling 1" />
+            <img src="img/proto_orig/scheduling-2.png" alt="Scheduling 2" />
+          </div>
+          <p>The scheduling screen is in place to keep our app ecosystem consistent. It is also used for rescheduling workouts.</p>
+        </div>
+        <div class="proto-row">
+          <div class="proto-row-photos">
+            <img src="img/proto_orig/filter-1.png" alt="Filter 1" />
+            <img src="img/proto_orig/filter-2.png" alt="Filter 2" />
+          </div>
+          <p>We made the filters based on the Gestalt grouping principals so that users don’t have to move too far to quickly select the desired workouts. </p>
+        </div>
       </div>
     </section>
 
-  </main>
+    <section>
+      <a class="anchor" id="test"></a>
+      <div class="section">
+        <h2>Test</h2>
+        <h3>Usability Testing</h3>
+        <p>We scheduled 30-min usability testing session with 1 pilot study and 5 participants to evaluate the prototype and discover problems.</p>
 
+        <h3>Methods</h3>
+        <p><strong>Think Aloud</strong></p>
+        <p>We asked our participants to verbalize their thoughts while using the prototype.</p>
+        <p><strong>Interview</strong></p>
+        <p>We followed up with an interview to deep dive on the related behaviors observed in completing the tasks. We also asked our participants to rate the easiness of each task.</p>
+        <img src="img/methods.png" alt="Methods" />
+        <h3>Major Findings</h3>
+        <ul>
+          <li><span class="orange">Users found that the scheduling flow being a bit overly complex.</span> How can we still keep our ecosystem (rescheduling, canceling) but simplify it? </li>
+          <li><span class="orange">Users actually paused at the workout filter page longer before they figured out how to proceed.</span> We need a solution to decrease user mental load and lessen the width but increase the depth.</li>
+        </ul>
+        <img src="img/major-findings.png" alt="Major Findings" />
+      </div>
+    </section>
+
+    <section>
+      <a class="anchor" id="redefine"></a>
+      <div class="whiteBG section">
+        <h2>Redefine</h2>
+        <p>Base on our usability testing findings, we made changes to our prototype!</p>
+        <div class="proto-row">
+          <div class="proto-row-photos">
+            <img src="img/proto-final/calendar-3.png" alt="Calendar 3" />
+            <img src="img/proto-final/calendar-4.png" alt="Calendar 4" />
+          </div>
+          <p>We made some tactic changes such as that we redesigned the button name [Today] and moved the location of the [Add] for a better layout.</p>
+        </div>
+        <div class="proto-row">
+          <div class="proto-row-photos">
+            <img src="img/proto-final/filter-3.png" alt="Filter 3" />
+            <img src="img/proto-final/filter-4.png" alt="Filter 4" />
+          </div>
+          <p>We also decreased the breath but increased the depth of the filtering system to decrease user mental load.</p>
+        </div>
+        <div class="proto-row">
+          <div class="proto-row-photos">
+            <img src="img/proto-final/scheduling-3.png" alt="Scheduling 3" />
+            <img src="img/proto-final/scheduling-4.png" alt="Scheduling 4" />
+          </div>
+          <p>We made a strategic change to have the ability to schedule time and date on the workout level. This simplied the adding workout flow but still stayed true to our ecosystem.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <a class="anchor" id="future"></a>
+      <h2>Future Work</h2>
+      <ul>
+        <li>Evaluate the latest iteration of the prototype.</li>
+        <li>Identify the MVP for developement.</li>
+        <li>Create design systems of the MVP to guide development.</li>
+        <li>Seek programmers who are interested in collaborating and start development.</li>
+        <li>Continue research work to identify and prioritize solutions for Release 2.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <a class="anchor" id="reflection"></a>
+      <h2>Reflection</h2>
+      <h3>What I learned</h3>
+      <p>I learned that a well-positioned introduction to users in a discovery research is very important. We either had to “pull” information out of the participants or they focused on discussing the current fitness apps they used because they thought that’s what we wanted to hear. So a good introduction informing the participants that want to understand their fitness lives in general is crucial on setting them up for success. </p>
+      <h3>What Could've Gone Differently?</h3>
+      <p>This is a 10-week design and research project utilizing Lean UX methodologies. If I had more time, I would like to design a survey for a competitive analysis prior to the discovery research to get a pulse on users’ unmet needs. We could then incoorporate it into our opportunity statement.</p>
+    </section>
+
+  </main>
 </body>
 </html>

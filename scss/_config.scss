@@ -1,3 +1,4 @@
+// GLOBAL RESET
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,6 +6,46 @@
   font-family: 'Inter', sans-serif;
 }
 
+// GLOBAL STYLES
+body {
+  background: #ffefd7;
+}
+.hide {
+  display: none;
+}
+.border {
+  border: 1px solid black;
+}
+img {
+  object-fit: contain;
+}
+
+// BACKGROUND STYLES
+.whiteBG {
+  background: #fff;
+}
+.colorBG {
+  background: #ffefd7;
+}
+.orangeBG {
+  background: #FDD983;
+}
+.blueBG {
+  background: #58DBEE;
+}
+.greenBG {
+  background: #C1F37A;
+}
+
+// TEXT STYLES
+.orange {
+  color: #f98922;
+}
+.center {
+  text-align: center;
+}
+
+// SNAP SCROLLING
 .scroll-container {
   height: 100vh;
   overflow-y: scroll;
@@ -16,18 +57,12 @@
   }
 }
 
+// MIXINS
 @mixin easeOut {
   transition: all 2s ease-out;
 } 
 
-.hide {
-  display: none;
-}
-
-.border {
-  border: 1px solid black;
-}
-
+// VARIABLES
 $apple: url('img/apple-logo.png');
 $hexis: url('img/hexis-logo.png');
 

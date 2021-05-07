@@ -1,4 +1,4 @@
-.navbar {
+.navbar-home {
   position: absolute;
   top: 1%;
   width: 100%;
@@ -28,4 +28,48 @@
       }
     }
   }
+}
+
+#hexis-stickynav {
+  position: sticky;
+  top: 0;
+  background: #ffefd7;
+  padding: 15px 25px;
+  display: flex;
+  .navbar-hexis {
+    align-self: center;
+    ul {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      list-style: none;
+      li {
+        font-size: 1em;
+        display: flex;
+        a {
+          padding: 20px;
+          color: #4d4d4d;
+          text-align: center;
+          width: 150px;
+          text-decoration: none;
+          background: #fff;
+          border-radius: 20px;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+        span {
+          align-self: center;
+          margin: auto;
+          color: #4d4d4d;
+        }
+      }
+    }
+  }
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    visibility: hidden;
+    top: -90px;
 }

@@ -4,6 +4,39 @@
   padding: 0;
   font-family: 'Inter', sans-serif; }
 
+body {
+  background: #ffefd7; }
+
+.hide {
+  display: none; }
+
+.border {
+  border: 1px solid black; }
+
+img {
+  object-fit: contain; }
+
+.whiteBG {
+  background: #fff; }
+
+.colorBG {
+  background: #ffefd7; }
+
+.orangeBG {
+  background: #FDD983; }
+
+.blueBG {
+  background: #58DBEE; }
+
+.greenBG {
+  background: #C1F37A; }
+
+.orange {
+  color: #f98922; }
+
+.center {
+  text-align: center; }
+
 .scroll-container {
   height: 100vh;
   overflow-y: scroll;
@@ -12,38 +45,6 @@
   .scroll-container section {
     height: 100vh;
     scroll-snap-align: center; }
-
-.hide {
-  display: none; }
-
-.border {
-  border: 1px solid black; }
-
-.navbar {
-  position: absolute;
-  top: 1%;
-  width: 100%;
-  padding: 2%;
-  display: flex;
-  justify-content: center; }
-  .navbar .nav-menu {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 30%; }
-    .navbar .nav-menu .nav-item {
-      margin: 0;
-      list-style: none;
-      text-align: center;
-      color: #808080;
-      font-size: 1.2em; }
-      .navbar .nav-menu .nav-item a {
-        color: inherit;
-        text-decoration: none; }
-      .navbar .nav-menu .nav-item.active {
-        font-weight: 600;
-        color: #000; }
-      .navbar .nav-menu .nav-item:hover {
-        cursor: pointer; }
 
 .scrollbar {
   position: fixed;
@@ -149,7 +150,6 @@
   align-items: center; }
   #profile img {
     border-radius: 20px;
-    object-fit: contain;
     max-width: 100%; }
   #profile .about-text {
     display: grid;
@@ -163,38 +163,38 @@
     color: #4d4d4d;
     grid-column: 1/3; }
 
-#research {
+#research-about {
   padding: 5%;
   height: 100vh;
   width: 100%;
   display: grid; }
-  #research #research-methods {
+  #research-about #research-methods {
     margin: 2% 1% 0 0;
     padding: 2%;
     background: #dbecff;
     height: 40vh;
     display: flex;
     flex-direction: column; }
-  #research #design-methods {
+  #research-about #design-methods {
     margin: 0 1% 0 0;
     padding: 2%;
     background: #ffefd7;
     height: 30vh;
     display: flex;
     flex-direction: column; }
-  #research h2 {
+  #research-about h2 {
     color: #333; }
-  #research ul {
+  #research-about ul {
     margin-top: 4%;
     align-self: center;
     display: grid;
     width: 90%;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 20%; }
-    #research ul li {
+    #research-about ul li {
       margin-left: 20%;
       color: #4d4d4d; }
-  #research a {
+  #research-about a {
     align-self: end;
     justify-self: center;
     color: #4d4d4d;
@@ -232,3 +232,170 @@
     margin-top: 10%; }
     #contact h2 a:hover {
       cursor: pointer; }
+
+#hexis-header {
+  padding: 25px; }
+  #hexis-header a {
+    text-decoration: none;
+    color: #4d4d4d; }
+    #hexis-header a:hover {
+      cursor: pointer; }
+  #hexis-header h1 {
+    padding: 1.5% 0;
+    font-size: 3em; }
+
+#hexis-main .section {
+  margin-bottom: 20px;
+  padding: 25px; }
+
+#hexis-main h2 {
+  font-size: 2em;
+  font-weight: 600;
+  padding-bottom: .5em; }
+
+#hexis-main h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+  padding-bottom: .5em; }
+
+#hexis-main h4 {
+  font-size: 1.5em;
+  font-weight: 400;
+  padding-bottom: .5em; }
+
+#hexis-main p {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #4d4d4d;
+  padding-bottom: .75em; }
+
+#hexis-main ol, #hexis-main ul {
+  color: #4d4d4d;
+  padding-bottom: .75em;
+  margin-bottom: 20px; }
+
+#hexis-main ol li, #hexis-main ul li {
+  line-height: 1.5em;
+  font-size: 1.5em; }
+
+#hexis-main .image {
+  display: flex;
+  justify-content: center;
+  margin: 25px; }
+
+#hexis-main #summary {
+  background: #ffefd7; }
+
+#hexis-main .navigation-header {
+  padding-left: 25px;
+  background: #ffefd7; }
+
+#hexis-main ol, #hexis-main ul {
+  padding-left: 25px; }
+
+#hexis-main #discover-section img {
+  width: 50%; }
+
+#hexis-main #discover-section #personas .persona-img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 25px 0; }
+  #hexis-main #discover-section #personas .persona-img img {
+    width: 95%;
+    border: 1px #000 solid;
+    border-radius: 25px; }
+
+#hexis-main #discover-section #personas #risks {
+  padding-top: 30px; }
+  #hexis-main #discover-section #personas #risks .headers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+  #hexis-main #discover-section #personas #risks .risk-row {
+    display: grid;
+    grid-template-columns: 45% 10% 45%;
+    margin: 15px 0; }
+    #hexis-main #discover-section #personas #risks .risk-row p {
+      background: #fff;
+      border-radius: 20px;
+      padding: 15px;
+      justify-self: center;
+      width: 80%; }
+    #hexis-main #discover-section #personas #risks .risk-row div {
+      align-self: center;
+      justify-self: center; }
+
+#hexis-main #research-section #affinity {
+  width: 70%; }
+
+#hexis-main #quotes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 25px 0; }
+  #hexis-main #quotes img {
+    width: 30vw; }
+
+#hexis-main #constraints {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
+
+.navbar-home {
+  position: absolute;
+  top: 1%;
+  width: 100%;
+  padding: 2%;
+  display: flex;
+  justify-content: center; }
+  .navbar-home .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 30%; }
+    .navbar-home .nav-menu .nav-item {
+      margin: 0;
+      list-style: none;
+      text-align: center;
+      color: #808080;
+      font-size: 1.2em; }
+      .navbar-home .nav-menu .nav-item a {
+        color: inherit;
+        text-decoration: none; }
+      .navbar-home .nav-menu .nav-item.active {
+        font-weight: 600;
+        color: #000; }
+      .navbar-home .nav-menu .nav-item:hover {
+        cursor: pointer; }
+
+#hexis-stickynav {
+  position: sticky;
+  top: 0;
+  background: #ffefd7;
+  padding: 15px 25px;
+  display: flex; }
+  #hexis-stickynav .navbar-hexis {
+    align-self: center; }
+    #hexis-stickynav .navbar-hexis ul {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      list-style: none; }
+      #hexis-stickynav .navbar-hexis ul li {
+        font-size: 1em;
+        display: flex; }
+        #hexis-stickynav .navbar-hexis ul li a {
+          padding: 20px;
+          color: #4d4d4d;
+          text-align: center;
+          width: 150px;
+          text-decoration: none;
+          background: #fff;
+          border-radius: 20px; }
+          #hexis-stickynav .navbar-hexis ul li a:hover {
+            cursor: pointer; }
+        #hexis-stickynav .navbar-hexis ul li span {
+          align-self: center;
+          margin: auto;
+          color: #4d4d4d; }
+
+a.anchor {
+  display: block;
+  position: relative;
+  visibility: hidden;
+  top: -90px; }

@@ -1,0 +1,126 @@
+#hexis-header {
+  padding: 25px;
+  a {
+    text-decoration: none;
+    color: #4d4d4d;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  h1 {
+    padding: 1.5% 0;
+    font-size: 3em;
+  }
+}
+#hexis-main {
+  .section {
+    margin-bottom: 20px;
+    padding: 25px;
+  }
+  h2 {
+    font-size: 2em;
+    font-weight: 600;
+    padding-bottom: .5em;
+  }
+  h3 {
+    font-size: 1.75em;
+    font-weight: 400;
+    padding-bottom: .5em;
+  }
+  h4 {
+    font-size: 1.5em;
+    font-weight: 400;
+    padding-bottom: .5em;
+  }
+  p {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #4d4d4d;
+    padding-bottom: .75em;
+  }
+  ol, ul {
+    color: #4d4d4d;
+    padding-bottom: .75em;
+    margin-bottom: 20px;
+  }
+  ol li, ul li {
+    line-height: 1.5em;
+    font-size: 1.5em;
+  }
+  .image {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+  }
+  #summary {
+    background: #ffefd7;
+    h2 {
+
+    }
+  }
+  .navigation-header {
+    padding-left: 25px;
+    background: #ffefd7;
+  }
+  ol, ul {
+    padding-left: 25px;
+  }
+  #discover-section {
+    img {
+      width: 50%;
+    }
+    #personas {
+      .persona-img {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 25px 0;
+        img {
+          width: 95%;
+          border: 1px #000 solid;
+          border-radius: 25px;
+        }
+      }
+      #risks {
+        padding-top: 30px;
+        .headers {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .risk-row {
+          display: grid;
+          grid-template-columns: 45% 10% 45%;
+          margin: 15px 0;
+          p {
+            background: #fff;
+            border-radius: 20px;
+            padding: 15px;
+            justify-self: center;
+            width: 80%;
+          }
+          div {
+            align-self: center;
+            justify-self: center;
+          }
+        }
+      }
+    }
+  
+  }
+  #research-section {
+    #affinity {
+      width: 70%;
+    }
+  }
+  #quotes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 25px 0;
+    img {
+      width: 30vw;
+    }
+  }
+  #constraints {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
