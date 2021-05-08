@@ -47,6 +47,21 @@
     line-height: 1.5em;
     font-size: 1.5em;
   }
+  .proto-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 25px 0;
+    .proto-row-photos {
+      justify-self: center;
+      img {
+        width: 20vw;
+      }
+    }
+    p {
+      padding-top: 80px;
+      padding-right: 60px;
+    }
+  }
   .image {
     display: flex;
     justify-content: center;
@@ -65,6 +80,7 @@
   ol, ul {
     padding-left: 25px;
   }
+  
   #discover-section {
     img {
       width: 50%;
@@ -155,20 +171,5 @@
         padding-right: 60px;
       }
     }
-    .proto-row {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      padding: 25px 0;
-      .proto-row-photos {
-        justify-self: center;
-        img {
-          width: 20vw;
-        }
-      }
-      p {
-        padding-right: 60px;
-      }
-    }
-
   }
 }

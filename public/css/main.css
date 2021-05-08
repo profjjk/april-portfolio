@@ -16,6 +16,12 @@ body {
 img {
   object-fit: contain; }
 
+.pad-top {
+  padding-top: 25px; }
+
+.pad-bottom {
+  padding-bottom: 25px; }
+
 .whiteBG {
   background: #fff; }
 
@@ -33,6 +39,9 @@ img {
 
 .orange {
   color: #f98922; }
+
+.black {
+  color: #000; }
 
 .center {
   text-align: center; }
@@ -278,6 +287,18 @@ img {
   line-height: 1.5em;
   font-size: 1.5em; }
 
+#hexis-main .proto-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 25px 0; }
+  #hexis-main .proto-row .proto-row-photos {
+    justify-self: center; }
+    #hexis-main .proto-row .proto-row-photos img {
+      width: 20vw; }
+  #hexis-main .proto-row p {
+    padding-top: 80px;
+    padding-right: 60px; }
+
 #hexis-main .image {
   display: flex;
   justify-content: center;
@@ -364,17 +385,6 @@ img {
   #hexis-main #ideate-section #user-flow p {
     align-self: center;
     justify-self: center;
-    padding-right: 60px; }
-
-#hexis-main #ideate-section .proto-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 25px 0; }
-  #hexis-main #ideate-section .proto-row .proto-row-photos {
-    justify-self: center; }
-    #hexis-main #ideate-section .proto-row .proto-row-photos img {
-      width: 20vw; }
-  #hexis-main #ideate-section .proto-row p {
     padding-right: 60px; }
 
 .navbar-home {

@@ -19,6 +19,12 @@ body {
 img {
   object-fit: contain;
 }
+.pad-top {
+  padding-top: 25px;
+}
+.pad-bottom {
+  padding-bottom: 25px;
+}
 
 // BACKGROUND STYLES
 .whiteBG {
@@ -40,6 +46,9 @@ img {
 // TEXT STYLES
 .orange {
   color: #f98922;
+}
+.black {
+  color: #000;
 }
 .center {
   text-align: center;
