@@ -112,13 +112,13 @@ img {
   grid-template-columns: repeat(2, 1fr);
   column-gap: 20px;
   align-items: center; }
-  #work-section .apple-work {
+  #work-section .surfin-app {
     height: 55%;
     background: #dbecff;
     padding: 20px;
     display: grid;
     transition: all .5s ease-out; }
-    #work-section .apple-work:hover {
+    #work-section .surfin-app:hover {
       cursor: pointer;
       box-shadow: 0px 0px 10px #808080,  -0px -0px 10px #808080;
       transition: all .5s ease-out; }
