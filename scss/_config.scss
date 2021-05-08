@@ -25,6 +25,11 @@ img {
 .pad-bottom {
   padding-bottom: 25px;
 }
+.image {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
 
 // BACKGROUND STYLES
 .whiteBG {

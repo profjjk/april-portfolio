@@ -22,6 +22,11 @@ img {
 .pad-bottom {
   padding-bottom: 25px; }
 
+.image {
+  display: flex;
+  justify-content: center;
+  margin: 25px; }
+
 .whiteBG {
   background: #fff; }
 
@@ -112,22 +117,26 @@ img {
   grid-template-columns: repeat(2, 1fr);
   column-gap: 20px;
   align-items: center; }
-  #work-section .surfin-app {
-    height: 55%;
-    background: #dbecff;
-    padding: 20px;
-    display: grid;
-    transition: all .5s ease-out; }
-  #work-section .hexis-app {
+  #work-section #hexis-app {
     height: 55%;
     background: #ffefd7;
     padding: 20px;
     display: grid;
-    transition: all .5s ease-out; }
-    #work-section .hexis-app:hover {
+    transition: all .5s ease-out;
+    text-decoration: none; }
+    #work-section #hexis-app:hover {
       cursor: pointer;
       box-shadow: 0px 0px 10px #808080,  -0px -0px 10px #808080;
       transition: all .5s ease-out; }
+  #work-section #surfin-app {
+    height: 55%;
+    background: #dbecff;
+    padding: 20px;
+    display: grid;
+    align-items: start;
+    transition: all .5s ease-out; }
+    #work-section #surfin-app img {
+      width: 80%; }
   #work-section h2 {
     text-align: center;
     font-weight: 200;
@@ -137,9 +146,6 @@ img {
     text-align: center;
     color: #808080;
     font-weight: 200; }
-  #work-section a {
-    justify-self: center;
-    align-self: center; }
   #work-section img {
     max-width: 100%;
     max-height: 250px; }
@@ -297,11 +303,6 @@ img {
   #hexis-main .proto-row p {
     padding-top: 80px;
     padding-right: 60px; }
-
-#hexis-main .image {
-  display: flex;
-  justify-content: center;
-  margin: 25px; }
 
 #hexis-main #summary {
   background: #ffefd7; }
