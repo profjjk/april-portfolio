@@ -15,7 +15,7 @@ const observer = new IntersectionObserver(function(entries, observer) {
       bottomDot.classList.remove('active');
       topDot.setAttribute('class', 'scroll-item active');
     }
-    if (entry.target.id === "research" && entry.isIntersecting === true) {
+    if (entry.target.id === "research-about" && entry.isIntersecting === true) {
       topDot.classList.remove('active')
       bottomDot.classList.remove('active')
       middleDot.setAttribute('class', 'scroll-item active');
