@@ -34,14 +34,17 @@
   position: sticky;
   top: 0;
   background: #ffefd7;
-  padding: 15px 25px;
+  padding: 0 25px;
   display: flex;
   .navbar-hexis {
     align-self: center;
+    margin: auto;
     ul {
       display: grid;
       grid-template-columns: repeat(7, 1fr);
       list-style: none;
+      padding-bottom: 0;
+      margin-top: 20px;
       li {
         font-size: 1em;
         display: flex;

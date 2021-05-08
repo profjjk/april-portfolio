@@ -245,7 +245,7 @@ img {
     font-size: 3em; }
 
 #hexis-main .section {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   padding: 25px; }
 
 #hexis-main h2 {
@@ -327,16 +327,55 @@ img {
 #hexis-main #research-section #affinity {
   width: 70%; }
 
-#hexis-main #quotes {
+#hexis-main #research-section #quotes {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 25px 0; }
-  #hexis-main #quotes img {
+  #hexis-main #research-section #quotes img {
     width: 30vw; }
 
-#hexis-main #constraints {
+#hexis-main #research-section #constraints {
   display: grid;
   grid-template-columns: repeat(2, 1fr); }
+
+#hexis-main #ideate-section #story-map {
+  width: 60%; }
+
+#hexis-main #ideate-section #sketches {
+  width: 50%; }
+
+#hexis-main #ideate-section #review-key {
+  display: grid;
+  grid-template-columns: repeat(3, 10%);
+  justify-content: center; }
+  #hexis-main #ideate-section #review-key div {
+    padding: 40px 15px;
+    text-align: center;
+    margin: 0 5px; }
+
+#hexis-main #ideate-section #happy-path {
+  width: 90vw; }
+
+#hexis-main #ideate-section #user-flow {
+  display: grid;
+  grid-template-columns: 65% 35%; }
+  #hexis-main #ideate-section #user-flow #user-flow-img {
+    width: 60vw; }
+  #hexis-main #ideate-section #user-flow p {
+    align-self: center;
+    justify-self: center;
+    padding-right: 60px; }
+
+#hexis-main #ideate-section .proto-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 25px 0; }
+  #hexis-main #ideate-section .proto-row .proto-row-photos {
+    justify-self: center; }
+    #hexis-main #ideate-section .proto-row .proto-row-photos img {
+      width: 20vw; }
+  #hexis-main #ideate-section .proto-row p {
+    padding-right: 60px; }
 
 .navbar-home {
   position: absolute;
@@ -368,14 +407,17 @@ img {
   position: sticky;
   top: 0;
   background: #ffefd7;
-  padding: 15px 25px;
+  padding: 0 25px;
   display: flex; }
   #hexis-stickynav .navbar-hexis {
-    align-self: center; }
+    align-self: center;
+    margin: auto; }
     #hexis-stickynav .navbar-hexis ul {
       display: grid;
       grid-template-columns: repeat(7, 1fr);
-      list-style: none; }
+      list-style: none;
+      padding-bottom: 0;
+      margin-top: 20px; }
       #hexis-stickynav .navbar-hexis ul li {
         font-size: 1em;
         display: flex; }

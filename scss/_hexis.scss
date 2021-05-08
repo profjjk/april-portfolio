@@ -14,7 +14,7 @@
 }
 #hexis-main {
   .section {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     padding: 25px;
   }
   h2 {
@@ -110,17 +110,65 @@
     #affinity {
       width: 70%;
     }
-  }
-  #quotes {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 25px 0;
-    img {
-      width: 30vw;
+    #quotes {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      padding: 25px 0;
+      img {
+        width: 30vw;
+      }
+    }
+    #constraints {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
     }
   }
-  #constraints {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  #ideate-section {
+    #story-map {
+      width: 60%;
+    }
+    #sketches {
+      width: 50%;
+    }
+    #review-key {
+      display: grid;
+      grid-template-columns: repeat(3, 10%);
+      justify-content: center;
+      div {
+        padding: 40px 15px;
+        text-align: center;
+        margin: 0 5px;
+      }
+    }
+    #happy-path {
+      width: 90vw;
+    }
+    #user-flow {
+      display: grid;
+      grid-template-columns: 65% 35%;
+      #user-flow-img {
+        width: 60vw;
+      }
+      p {
+        align-self: center;
+        justify-self: center;
+        padding-right: 60px;
+      }
+    }
+    .proto-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 25px 0;
+      .proto-row-photos {
+        justify-self: center;
+        img {
+          width: 20vw;
+        }
+      }
+      p {
+        padding-right: 60px;
+      }
+    }
+
   }
 }
