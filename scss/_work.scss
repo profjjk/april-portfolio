@@ -37,13 +37,13 @@
     padding: 20px;
     display: grid;
     transition: all .5s ease-out;
-    &:hover {
-      cursor: pointer;
-      box-shadow: 
-        0px 0px 10px #808080, 
-        -0px -0px 10px #808080;
-      transition: all .5s ease-out;
-    }
+    // &:hover {
+    //   cursor: pointer;
+    //   box-shadow: 
+    //     0px 0px 10px #808080, 
+    //     -0px -0px 10px #808080;
+    //   transition: all .5s ease-out;
+    // }
   }
   .hexis-app {
     height: 55%;
