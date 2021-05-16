@@ -7,6 +7,9 @@
 .coloredBG {
   background: #ffefd7; }
 
+.lightBlueBG {
+  background: #dbecff; }
+
 .hide {
   display: none; }
 
@@ -41,6 +44,9 @@ img {
 
 .greenBG {
   background: #C1F37A; }
+
+.blue {
+  color: #58DBEE; }
 
 .orange {
   color: #f98922; }
@@ -386,6 +392,50 @@ img {
     align-self: center;
     justify-self: center;
     padding-right: 60px; }
+
+.positive {
+  background: #4cd964;
+  color: #fff;
+  padding: .25em .45em;
+  border-radius: 5px; }
+
+.fyi {
+  background: #ffcd02;
+  color: #fff;
+  padding: .25em .75em;
+  border-radius: 5px; }
+
+.issue-small {
+  background: #eb5757;
+  color: #fff;
+  padding: .25em .75em;
+  border-radius: 50%; }
+
+.issue-major {
+  background: #eb5757;
+  color: #fff;
+  padding: .25em .60em;
+  border-radius: 50%; }
+
+.legend {
+  border: 5px solid #dbecff;
+  border-radius: 25px;
+  padding: .5em;
+  width: 30%; }
+
+.insight {
+  display: grid;
+  grid-template-columns: 5% 95%;
+  padding: .5em; }
+  .insight div {
+    display: grid;
+    justify-content: end; }
+  .insight p {
+    align-self: center;
+    padding-left: 35px; }
+
+.subtitle {
+  margin: 50px 0 25px 0; }
 
 .navbar-home {
   position: absolute;

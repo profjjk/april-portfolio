@@ -1,0 +1,46 @@
+.positive {
+  background: #4cd964;
+  color: #fff;
+  padding: .25em .45em;
+  border-radius: 5px;
+}
+.fyi {
+  background: #ffcd02;
+  color: #fff;
+  padding: .25em .75em;
+  border-radius: 5px;
+}
+.issue-small {
+  background: #eb5757;
+  color: #fff;
+  padding: .25em .75em;
+  border-radius: 50%;
+}
+.issue-major {
+  background: #eb5757;
+  color: #fff;
+  padding: .25em .60em;
+  border-radius: 50%;
+}
+.legend {
+  border: 5px solid #dbecff;
+  border-radius: 25px;
+  padding: .5em;
+  width: 30%;
+}
+.insight {
+  display: grid;
+  grid-template-columns: 5% 95%;
+  padding: .5em;
+  div {
+    display: grid;
+    justify-content: end;
+  }
+  p {
+    align-self: center;
+    padding-left: 35px;
+  }
+}
+.subtitle {
+  margin: 50px 0 25px 0;
+}
