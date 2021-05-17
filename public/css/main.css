@@ -140,9 +140,14 @@ img {
     padding: 20px;
     display: grid;
     align-items: start;
-    transition: all .5s ease-out; }
+    transition: all .5s ease-out;
+    text-decoration: none; }
     #work-section #surfin-app img {
       width: 80%; }
+    #work-section #surfin-app:hover {
+      cursor: pointer;
+      box-shadow: 0px 0px 10px #808080,  -0px -0px 10px #808080;
+      transition: all .5s ease-out; }
   #work-section h2 {
     text-align: center;
     font-weight: 200;
@@ -394,34 +399,60 @@ img {
     padding-right: 60px; }
 
 .positive {
+  display: grid;
+  justify-content: center;
+  align-content: center;
   background: #4cd964;
   color: #fff;
-  padding: .25em .45em;
-  border-radius: 5px; }
+  font-size: 1.5em;
+  border-radius: 5px;
+  height: 40px;
+  width: 40px; }
 
 .fyi {
+  display: grid;
+  justify-content: center;
+  align-content: center;
   background: #ffcd02;
   color: #fff;
-  padding: .25em .75em;
-  border-radius: 5px; }
+  font-size: 1.5em;
+  border-radius: 5px;
+  height: 40px;
+  width: 40px; }
 
 .issue-small {
+  display: grid;
+  justify-content: center;
+  align-content: center;
   background: #eb5757;
   color: #fff;
-  padding: .25em .75em;
-  border-radius: 50%; }
+  font-size: 1.5em;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px; }
 
 .issue-major {
+  display: grid;
+  justify-content: center;
+  align-content: center;
   background: #eb5757;
   color: #fff;
-  padding: .25em .60em;
-  border-radius: 50%; }
+  font-size: 1.5em;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px; }
 
 .legend {
   border: 5px solid #dbecff;
   border-radius: 25px;
-  padding: .5em;
-  width: 30%; }
+  padding: 1em;
+  width: 40%;
+  margin-left: auto; }
+  .legend .insight {
+    font-size: .65em; }
+    .legend .insight span {
+      width: 25px;
+      height: 25px; }
 
 .insight {
   display: grid;
@@ -436,6 +467,109 @@ img {
 
 .subtitle {
   margin: 50px 0 25px 0; }
+
+#surfin-header, #surfin-footer {
+  padding: 25px; }
+  #surfin-header a, #surfin-footer a {
+    text-decoration: none;
+    color: #4d4d4d; }
+    #surfin-header a:hover, #surfin-footer a:hover {
+      cursor: pointer; }
+  #surfin-header h1, #surfin-footer h1 {
+    padding: 1.5% 0;
+    font-size: 3em; }
+
+#surfin-main section {
+  padding: 25px; }
+
+#surfin-main h2 {
+  font-size: 2em;
+  font-weight: 600;
+  padding-bottom: 1.25em; }
+
+#surfin-main h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+  padding: .5em 0; }
+
+#surfin-main h4 {
+  font-size: 1.5em;
+  font-weight: 400;
+  padding-bottom: .5em; }
+
+#surfin-main p {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #4d4d4d;
+  padding-bottom: .75em; }
+
+#surfin-main ol, #surfin-main ul {
+  color: #4d4d4d;
+  padding-bottom: .75em;
+  margin-bottom: 20px;
+  margin-left: 25px; }
+
+#surfin-main ol li, #surfin-main ul li {
+  line-height: 1.5em;
+  font-size: 1.5em; }
+
+#surfin-main #validation {
+  display: grid;
+  grid-template-columns: repeat(3, 20%);
+  justify-content: space-around; }
+  #surfin-main #validation .validation-item {
+    border: 5px solid #dbecff;
+    border-radius: 25px; }
+    #surfin-main #validation .validation-item h3 {
+      background: #dbecff;
+      text-align: center;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px; }
+    #surfin-main #validation .validation-item p {
+      padding: 25px; }
+
+#research-protocol {
+  padding-bottom: 5px !important; }
+
+#timeline-pic {
+  width: 90%; }
+
+#recruiting {
+  margin-bottom: 50px; }
+
+#quotes {
+  display: grid; }
+  #quotes .quote {
+    font-style: italic;
+    padding: 1em;
+    border: 5px solid #dbecff;
+    border-radius: 25px;
+    width: 50%;
+    margin: 25px; }
+  #quotes .right {
+    justify-self: end; }
+
+#usage-pics {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px; }
+  #usage-pics img {
+    width: 85%; }
+
+#data-coll-image {
+  width: 40%; }
+
+#synthesis {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center; }
+  #synthesis p {
+    padding: 1em; }
+  #synthesis img {
+    width: 70%; }
 
 .navbar-home {
   position: absolute;

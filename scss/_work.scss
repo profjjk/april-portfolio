@@ -53,16 +53,17 @@
     display: grid;
     align-items: start;
     transition: all .5s ease-out;
+    text-decoration: none;
     img {
       width: 80%;
     }
-    // &:hover {
-    //   cursor: pointer;
-    //   box-shadow: 
-    //     0px 0px 10px #808080, 
-    //     -0px -0px 10px #808080;
-    //   transition: all .5s ease-out;
-    // }
+    &:hover {
+      cursor: pointer;
+      box-shadow: 
+        0px 0px 10px #808080, 
+        -0px -0px 10px #808080;
+      transition: all .5s ease-out;
+    }
   }
   h2 {
     text-align: center;
